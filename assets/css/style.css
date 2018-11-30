@@ -160,3 +160,54 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
+@media screen and (max-width: 980px) {
+    body{
+        background-color:#cccccc;
+    }
+    #container {
+        width:auto;
+      height: auto;
+      padding: 15px;
+    }
+    #contentBackground {
+        width:980px;
+          height: auto;
+          padding: 15px;
+        }
+    footer{
+        width:980px;
+    }
+}
+@media screen and (max-width: 768px) {
+    body{
+        background-color:#cccccc;
+    } #container {
+        width:auto;
+      height: auto;
+      padding: 15px;
+    }
+    #contentBackground {
+        width:768px;
+          height: auto;      
+        }
+    footer{
+        width:768px;
+    }
+}
+@media screen and (max-width: 640px) {
+    body{
+        background-color:#cccccc;
+    }
+    #container {
+        width: auto;
+      height: auto;
+      padding: 15px;
+    }
+    #contentBackground {
+        width:640px;
+          height: auto;
+        }
+    footer{
+        width:640px;
+    }
+}
